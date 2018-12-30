@@ -1,0 +1,278 @@
+- EAF = Euro Automotive Fabrication (auto component-manufacturing)
+- Expanding its manufacturing base into three of the newer eastern European member states.
+- Goal:  increase efficiency and streamline their complex supply chains with suppliers as well as minimise the holding costs of inventory
+- The group has an existing Enterprise Resource Planning system (ERP) which was installed in 2005
+- The B2B systems as falling (Purchase System)
+- There is a need to develop the Groups B2B and B2C facilities to create closer ties to both suppliers and industry customers in new ways and maximise the benefits of Internet trading. 
+- CIO has recommended to the senior management team that the firm upgrade their SAP systems by adding CRM and SCM modules, as well as enhanced Business Intelligence/Analytics capability
+
+================================================================================================================================================================================
+1. Discuss and critically evaluate the importance of Enterprise Architecture in establishing a foundation for executing EAF’s business strategy. 
+    Make a brief assessment of the firm’s current Operating Model and Enterprise Architecture maturity. (20 marks) - Unit 3 (4 & 5) - 600 words
+
+                
+Euro Automotive Fabrication (EAF) ha estado manufacturando componentes para vehiculos durante mas de 50 años. El catalogo de productos de la empresa se ha ampliado y diversificado durante este tiempo hasta cubrir casi todas las categorias de la industria del automovil desde systemas electricos hasta piezas de suspension y transmision. Cada producto tiene sus propias especificaciones tecnicas y sigue un proceso de elaboracion diferente creado y mejorado por los ingenieros de la empresa basandose en las demandas especificas de cada cliente. En la actualidad Euro Automotive Fabrication esta comenzando un periodo de cambio que incluye la apertura de nuevas plantas de produccion en tres nuevos paises y la revision de los  procesos y sistemas de produccion para mejorar la efectividad y reducir los costes.
+El actual modelo operativo de la empresa se caracteriza por su diversificacion (Ross 2006), es decir, una baja estandarizacion de los procesos y una baja integracion de las unidades de negocio. Esto significa que en cada pais y en cada fabrica de Euro Automotive Fabrication se trabaja y se fabrican los componentes de forma distinta. Los proveedores son diferentes en cada pais, la maquinaria de produccion es diferente en cada fabrica y los sistemas informaticos son distintos en cada unidad de negocio. El modelo operativo de la empresa es descentralizado.
+La estrategia de Euro Automotive Fabrication es cambiar el actual modelo operativo a un modelo mas centralizado que combine lo mejor de la Coordinacion y la Replicacion (Ross 2006). El nuevo modelo se basa en unidades de negocios separadas geograficamente pero que comparten procesos, sistemas e informacion. Para implementar este modelo es necesario reducir el numero de aplicaciones y soluciones tecnologicas, centralizar la informacion en bases de datos accesibles a todas las unidades de negocio de la empresa, automatizar rutinas en todos los paises y homogeneizar procesos. Un modelo centralizado significa un modelo altamente estandarizado e integrado a pesar de que las distintas unidades este ubicadasen diferentes lugares del mundo.
+Los beneficios generales del nuevo modelo operativo incluyen la reduccion de costes de produccion debido a la deruccion de costes administrativos y la optimizacion de la compra de materiales para fabricar componentes, la mejora de la colaboracion de nivel global dentro de la organizacion y la posibilidad de utilizar mejor los equipos en distintos proyectos y en distintos paises, la disposicion de reportes comparativos, estadisticas y metricas que sirven para mejorar el conocimiento de la empresa y la toma de decisiones, mejora de la calidad de los productos y de la la satisfaccion de los clientes debido a la mejora de los procesos y a la reduccion de los tiempos de produccion, etc..(Motiwalla & Thompson 2013).
+El objetivo final de un Sistema de Empresas es mejorar el funcionamiento de la organizacion en todos sus aspectos y para implementar un Sistema de Empresas donde no lo hay o hay uno obsoleto es necesario conocer la arquitectura de la organizacion y el modelo de madurez de la arquitectura (Ross 2006). La arquitectura de la organizacion es "la forma en la que la informacion esta organizada dentro de sistemas y componentes y como se relacionan los datos dentro y fuera del sistema" (Motiwalla & Thompson 2013) y el nivel de madurez de la arquitectura el nivel de desarrollo y evolucion de la arquitectura (Ross 2006).
+Euro Automotive Fabrication a pesar de tener un Enterprise Resource Planning (ERP) instalado en el año 2005 no tiene otros modulos importantes com Supply Chain Management (SCM) o Customer Relationship Management (CRM). La conclusion es que la arquitectura de la empresa  se basas en un conjunto de aplicaciones independientes y bases de datos locales (Application silo architecture - Ross 2006).
+Aunque en el horizonte el objetivo final de la organizacion sea llegar al nivel maximo de madurez (Business modularity - Ross 2006) la gestion del cambio se debe producir de forma gradual. El proyecto para mejorar la arquitectura de la empresa tiene como objetivo realista llegar a un nivel de estandarizacion e integracion tecnologica alta (Standardised technology architecture - Ross 2006)
+(663 in spanish)
+                
+                (Motiwalla & Thompson 2013)
+La arquitectura de la informacion es la forma en la que la informacion esta organizada dentro de sistemas y componentes y como se relacionan los datos dentro y fuera del sistema en un entorno de negocios mas amplio.
+Niveles de abstarccion: conceptual, logica y fisica
+Enterprise Architecture (EA) es una herramienta conceptual para definir la estructura
+Enterprose System Architecture (ESA) es la capa logica y fisica
+Nivel conceptual: 4 perspectivas de EA: negocio, informacion, aplicacion y tecnologica
+Nivel logico: base de datos central , hardware, software and network
+                                                                                Finanzas, recursos humanos, logistica, procesos (workflow) y soluciones industriales
+beneficios
+Performance Management: estadisticas y metricas en tiempo real para mejorar el negocio
+Financials: mejorar la prediccion y el ajuste a las leyes. Conocimiento profundo de las finanzas. Automatizacion de la contabilidad y pedidos. Reportes rigurosos
+HR Management: 
+-Enable creation of project teams based on skills and availability and monitor progress on projects
+Procurement and Logistics Execution
+-Cost savings for all spending categories by automation of routine tasks
+-Reduce costs through supplier integration and better collaboration
+-Enhance productivity of incoming and outgoing movements of physical goods
+Product Development and Production
+-Shorten time to market processes
+-Deliver higher quality products through improved product planning and scheduling
+-Improve visibility of production processes in real time
+Sales and Service
+-Higher number of sales orders processed and reduced administrative costs through automation and e-commerce
+-Improved customer satisfaction through better access to information
+-Cost-effective mobile access for field employees and lower travel costs by using online functions
+
+Modelo de madurez de la arquitectura  (Ross 2006)
+1. Application silo architecture – consisting of architectures of individual applications rather than an architecture for the entire enterprise. At this stage companies maximise functional or individual business unit needs.
+2. Standardised technology architecture – where IT architecture becomes enterprise-wide and provides IT operational efficiencies through technology standardisation and often centralisation.
+3. Optimised core architecture – expands enterprise-wide IT architecture to include data and process standardisation. This stage focuses on improving enterprise-wide operational efficiencies.
+4. Business modularity – companies manage and reuse loosely coupled IT-enabled business process components, enabling local differences while preserving global standards. Organisational focus
+
+el viaje a EA: crear los cimientos.
+Operating model: definir como se va a hacer negocio
+definir integracion y estandarizacion
+definir limites strategicos
+definir las capacidades centrales
+4 operating models
+- Diversification (low standardisation, low integration) – reflects independence with shared services. This model is decentralised, having business units with different markets, products and services and with high local autonomy.
+- Coordination (low standardisation, high integration) – reflects seamless access to shared data by focusing on integration, but with little process standardisation. This model also has high local autonomy, but creates a single face for its customers.
+- Replication (high standardisation, low integration) – reflects standardised independence through a focus on process standardisation. Business units are not dependent on each other‘s data or transactions.
+- Use: (high standardisation, high integration) – reflects standardised, integrated processes and a centralised organisational design. Business units have little need for autonomy, as the firm uses shared data to create an end-to-end view of operations.
+Para ir de Operating Model a Enterprose Sytem hay que: compartir datos, compartir procesos, automatizar y reducir las tecnologias, simplificar
+
+
+The product: SAP Business Suite
+
+The components
+                
+SAP CRM – Customer Relationship Management
+SAP PLM – Product Lifecycle Management
+SAP SCM – Supply Chain Management
+SAP SRM –Supplier Relationship Management
+SAP ERP – Enterprise Resource Planning
+
+                
+                ================================================================================================================================================================================                
+2. Critically evaluate supply chain planning and execution systems available through the latest SAP Supply Chain Management module and assess issues around integration of SCM with ERP. (20 marks) - Unit 10 & 6
+* Talk a bout latest features in SAP about Supply Chain Management (5 key processes: procurement , outsourcing...) and SCM integration
+
+
+Euro Automotive Fabrication (EAF) tiene un catalogo de productos muy variado y el proceso de fabricacion y distribucion de cada producto cambia segun el tipo de componente que se fabrica y segun el cliente que demanda el producto pero hay fases comunes en la produccion de todos los componentes como la compra de los materiales necesarios para la produccion del componente, el almacenamiento de los materiales y la distribucion entre las diferentes fabricas, el proceso de produccion en la fabrica y la distrubucion del producto final una vez acabado.
+Para gestionar estas fases, Euro Automotive Fabrication utiliza dos herramientas diferentes: una para planificar la cadena de produccion (Supply Chain Planning - SCP) y otra para ejecutar el plan (Supply Chain Execution - SCE). La planificacion se compone de varias funciones principales (Motiwalla & Thompson 2013): la planificacion de la adquisicion de materiales y servicios a los proveedores, la planificacion de la distribucion de los productos fabricados a los clientes en funcion de la demanda, la planificacion y la programacion de la produccion de los componentes,
+la planificcion de la colaboracion entre las distintas unidades de negocio internas y externas y el diseño de la estrategia de la red de produccion y distribucion. La ejecucion del plan incluye funciones de gestion (Motiwalla & Thompson 2013) como la gestion del almacenamiento de los materiales y componentes, las gestion del empaquetado y transporte del producto al cliente, la gestion de los pedidos,las facturas y el inventario y la gestion de los eventos que sirgen durante la fase de produccion.
+La suma de la planificacion y de la ejecucion es igual a la gestion de la cadena de produccion que pertenece al modulo Supply Chain Management. El modulo SCM agrupa la planificacion y la ejecucion del plan en seis procesos diferentes (Motiwalla & Thompson 2011):
+1 - Procurement – la gestion del las compras y ventas de bienes y servicios a otras empresas (B2B)
+2 - Outsourcing and Partnerships – gestion de las colaboraciones y acuerdos entre la organizacion y las empresas externas que proporcionan bienes y servicios.
+3 - Manufacturing Flow Management – gestion de la fabricacion de los componentes y entrega al departamento de distrubucion
+4 - Order Fulfillment – gestion de los procesos de pedido, almacenamiento y entreg de los componentes
+5 - Customer Service Management – Base de datos con informacion del cliente en tiempo real sobre le demanda del producto, fechas de entrega y operaciones de produccion y distribucion
+6 - Forecasting – prediccion de la actividad del producto en distintos rangos temporales.
+En SAP, el modulo Supply Chain Management distingue tres tipos de flujos: el flujo financiero, el flujo del producto y el flujo de la informacion y la herramienta de software central en la que se gestionan estos tres flujos se llama Advanced Planner and Optimizer (APO) (www.saponlinetutorials.com). Esta aplicacion se divide en componentes especificos que sirven para gestionar los tres tipos de flujos. Los componentes son: Demand Planning (DP), Supply Network Planning (SNP), Production Planning\Detailed Scheduling (PP\DS), Global Available to promise check (GATP), APO with BW Product, Transportation Planning\Vehicle Scheduling (TP\VS) y Transport Load Builder.
+Euro Automotive Fabrication tiene instalado un ERP desde el año 2005 lo que significa que los componentes del nucleo (Base de datos y Framework de aplicaciones) y los componentes centrales (Enterprise Resource Planning y Business Process Management) (Møller, 2005) ya estan instalados y operativos. El reto principal es actualizar los componentes existentes en la empresa y reemplazar las herramientas de planificacion y ejecucion por el SCM de SAP revisando todos los procesos financieros, de produccion y de informacion para lograr una mayor eficiencia en todos los procesos y una reduccion de gastos. Para poder conectar el ERP con el SCM la organizacion debe crear un modelo de integracion de datos. El modelo de integracion es creado por la organizacion y se pueden tener varios modelos e incluso varias versiones de un mismo modelo aunque solo un modelo puede estar activo a la vez. Un modelo de integracion es una forma de estandarizar los datos a traves de los distintos modulos de SAP. Consiste en clasificar y categorizar de una misma forma y definir los campos (filter objects) que forman parte del modelo de integracion. Los modelos de integracion se pueden activar y son necesarios para conectar unos modulos con otros.
+(714 in spanish)
+
+
+(Motiwalla & Thompson 2013)
+The supply chain is the network of all the functions involved in filling a customer request.These functions include: suppliers, transportation, distributors, new product development, manufacturing, marketing, finance, accounting, retailers, customers and customer service.
+The typical supply chain involves:
+1 - Procurement: acquiring materials, supplies and services for production
+2 - Production: converting those items into goods or services
+3 - Logistics: internal distribution and storage of goods
+4 - Order fulfilment: distribution of product to the customer
+
+Supply chain management is the application of methodologies and techniques to integrate the processes of suppliers, distributors, vendors and sellers.
+Customer->Retailer->Wholesaler->Distributor->Manufacturer->Supplier
+The goal of supply chain management is to produce the right products in the right quantities, delivered to the right places and to coordinate all those activities in a way to achieve the lowest possible system cost
+
+  (Motiwalla & Thompson 2011, Chapter 11) four main drivers of performance foSCM: facilities, inventory, transportationand information
+  Supply Chain Operations Reference-model (SCOR): Plans, Source, Make, Deliver, Return
+  2 types of software:
+  1 - Supply chain planning systems (sourcing and manufacturing plans)
+Collaborative planning (of all functions with partners)
+Strategic network design
+Demand planning
+Supply planning
+Production planning
+Production scheduling
+                2-  Supply Chain Execution Systems (control production flows)
+Warehouse management
+Transportation management
+Order management
+Inventory management
+Event management
+
+SCM processes   (Motiwalla & Thompson 2011)
+1 - Procurement – the business-to-business purchase and sale of supplies and services.
+2 - Outsourcing and Partnerships – outsourcing is an arrangement in which an external firm provides services for another firm that could also be done or have historically been provided in-house, partnerships refer to managing relationships with other supply chain partners.
+3 - Manufacturing Flow Management – the manufacturing process is designed to produce and supply products to the distribution channels based on past forecasts or point of sales (POS) data.
+4 - Order Fulfillment – process that responds to customer demand by merging the important functions of order management, storage, and delivery of finished goods, it also includes warehouse management and physical distribution.
+5 - Customer Service Management – source of customer information, which also provides the customer with real-time information on promising dates and product availability through interfaces with the firm‟s production and distribution operations.
+6 - Forecasting – seeks to predict levels of weekly or monthly product activity over a time horizon.
+
+The success of the supply chain relies on integration. Four levels of integration:
+information-sharing ; design and planning ; workflow coordination and product development
+Integration of SCM is a challenging task because each member in the supply chain may have different hardware and software (open standards ; middleware software)
+
+---
+SAP SCM divided in three types of flows:
+-Financial, Product and Information
+
+APO: Advance Planner and Optimizer
+
+https://wiki.scn.sap.com/wiki/display/SCM/SAP+SCM
+https://www.saponlinetutorials.com/sap-scm-supply-chain-management-modules/
+https://www.saponlinetutorials.com/about-sap-modules-sap-modules-list-overview/
+
+
+ ================================================================================================================================================================================
+3. Analyse the issues of coordinating Customer Relationship Management business practice with the latest SAP CRM software for EAF and assess any implementation issues involved. 
+Summarise your recommendations for the firm. (20 marks)
+CRM processes Unit 10
+
+Los componentes para vehiculos que manufactura Euro Automotive Fabrication (EAF)  son vendidos a distintos tipos de empresas. Por un lado estan los fabricantes de coches que hacen pedidos de gran tamaño para sus fabricas de automoviles. Por otro lado estan los talleres de reparacion de automoviles. Y por ultimo estan el resto de clientes como tiendas de componentes automovilisticos, gasolineras, etc... Todo el proceso de venta se compone de procesos mas pequeños como la gestion de los pedidos, la organizacion de campañas publicitarias, el servicio de atencion al cliente o la realizacion de estudios de mercado. En el centro de un CRM esta el ciclo de vida de un cliente que se divide en cinco areas (Motiwalla & Thompson 2013). El primer area consiste en llegar al cliente (Reach), contactar con el cliente y llamar su atencion. Que el cliente sepa que la empresa existe y que produce ciertos bienes y servicios. La segunda area consiste en adquirir el cliente (Acquisition), consequir que el cliente haga una compra y proprocione los datos. El tercer area consiste en mejorar la relacion del cliente con la empresa (Enhancement), conseguir que tenga una opinion favorable. La cuarta area del ciclo de vida de un cliente es retener al cliente (Retention) y por ultimo fidelizar al cliente (Loyalty). Todas las herramientas de un CRM estan diseñadas para contribuir en alguna de las areas del ciclo de vida, por ejemplo, la herramienta de investigacion de mercados para diseñar campañas de marketing que sirvan para atraer clientes nuevos o la herramienta de servicio al cliente sirve para intentar retener a los clientes cuando algo falla en el proceso.
+Las herramientas principales de un CRM son: Direct Marketing, Cross-sell and Up-sell, Proactive Service, Sales Force Automation y Customer Support (Motiwalla & Thompson 2013).
+
+La ultima version de SAP CRM se llama SAP Hybris Customer Engagement & Commerce (blogs.sap.com) y se compone de cuatro sub areas: 
+1 - Customer (Sales, Services, Marketing and Social)
+2 - Marketing
+3 - Commerce
+4  -Billing. 
+
+Cada una de estas areas del CRM contiene las funciones necesarias para gestionar una fase especifica en el ciclo de vida del cliente y la cadena de acciones en el proceso de venta de la empresa. El are de Marketing permite gestionar campañas de ventas, segmentar los clientes en funcion de sus demandas, necesiades o habitos de consumo y hacer estudios de mercado enter otras funciones. El area de Clientes contiene funcioens para gestionar los datos de los clientes, los pedidos y los contratos, gestionar el pago de incentivos y comisiones por compras o ventas y analizar los tipos de ventas y oportunidades. El are de Commerce contiene los modulos Web y los canales que conectan a los clientes con la organizacion. Y el area Billing contiene las funciones de facturacion.
+El principal problema de Euro Automotive Fabrication (EAF) para implementar el CRM con el resto de los modulos es el de la integracion. Una de las soluciones que ofrece el mercado para integrar in CRM como Salesforce con el ERP de SAP se llama Anypoint Platform de la empresa MuleSoft. Este producto se compone de una serie de librerias y herramientas qie permiten crear conexiones a traves de SOA, SaaS u otras applicaciones. La integracion de los diferentes modulos de un Sistema de Empresa es la capcidad que tienen estos modulos de hablar entre ellos y de intercambiar informacion. Integrar el CRM de SAP con el ERP de SAP es mas sencillo ya que forman parte de la misma familia de productos y la integracion se realiza utilizando las herramientas de configuracion disponibles en SAP.
+(598 in spanish)
+
+
+https://www.mulesoft.com/resources/esb/crm-erp-integration
+https://www.mulesoft.com/resources/esb/eliminating-point-point-integration-pain-mule-esb-use-cases
+
+================================================================================================================================================================================
+4. Critically evaluate the benefits of implementing SAP Business Intelligence (BI) and analytics modules for the firm. (10 marks)
+
+Todas las decisiones en relacion a todos los aspectos de la organizacion, incluyendo la produccion de los componentes de los vehiculos como la gestion de los clientes, se deben tomar an base a datos. Para poder mejorar un proceso es necesario saber cuantos pasos hay en ese proceso, cuanto tiempo se tarda en ejecutar cada paso, cuantas personas intervienen y que herramientas utilizan y cuanto cuesta el proceso en general y cada paso del proceso. Con esta informacion la organizacion puede eliminar o mejorar la cadena de produccion pero es necesario que la informacion se correcta. Lo mismo ocurre para incrementar las ventas de un producto o mejorar el servicio a los clientes. Los datos son necesarios.
+En el centro de un Sistema de Empresas como SAP hay una base de datos donde esta toda la informacion. Estos datos provienen de varias fuentes como el CRM, el ERP o el SCM (the source layer) (Motiwalla & Thompson 2013). Todos los datos tienen que ser transportados desde los diferentes modulos a la base de datos central o desde fuentes externas (the staging layer). Este transporte de datos se compone de tres fases: Extract, Transform and Load (Motiwalla & Thompson 2013). La extraccion consiste en conectarse a la fuente de datos (un archivo o un base de datos), buscar los datos que se quieren extraer (una tabla, una vista, una hoja de calculo o un nodo de xml) y leer los datos. Transformar los datos consiste en analizar los datos leidos y convertirlos al tipo de datos de nuestro sistema añadiendo (o no) mas informacion como el nombre de la fuente de datos y la fecha de la extarccion de los datos. Por ultimo, los datos leidos y transformados se almacenan de forma estructurada en el Data Warehouse.
+The information layer es el Data Warehouse, la base de datos donde se almacena toda la informacion extraida. Hay varias formas de modelar los datos pero una practica habitual consiste en separar datos en dimensions y facts. Las dimensiones son datos mas o menos estaticos, categorias y clasificaciones. En Euro Automotive Fabrication (EAF) los componentes y los tipos de componentes son dimensiones, las fabricas, los clientes y los empleados son dimensiones tambien. Los facts son las transacciones, los datos dinamicos, las operaciones que ocurren a diario.
+Un cliente es una dimension, sus pedidos y sus facturas son los facts de ese cliente. Los datos s epueden agrupar en tres grandes tipos (Motiwalla & Thompson 2013): raw data, metadata y summary data. Raw data son los datos tal y como los recibimos, metadata son los datos que obtenemos de los datos y el summary data son sintesis de los datos.
+La funcion mas importante de un Sistema de Empresa consiste en gestionar tos los datos almacenados y poder construir reportes, calcular estadisticas y ofrecer a la organizacion las metricas necesarias para poder tomar decisiones. SAP ofrece dos productos para el analisis de datos: SAP BusinessObjects Business Intelligence suit y SAP Analytics Cloud aunque en el mercado hay muchos productos muy buenos como Excel, Power BI o Oracle Application Express. Los reportes de empresa tienen diversas formas de reprentar los datos. Una de las formas mas frecuentes de presentar los datos es el uso de Scorecards y Dashboards que incluyen charts y pequeñas tablas mostrando informacion resumida, Key performance indicators, Key result areas, etc.. Otro usi es crear cubos de datos que muestren la interrelacion entre didtintos tipos de datos como productos, fechas y measures. En las organizaciones modernas, los departamentos demandan la capacidad de interrogar la base de datos para poder crear reportes customizados segun el analisis que quieran hacer o segun el cliente y por ello los Sistemas de Empresa contiene herramientas de analisis y para crear queries Ad Hoc. Encontrar patrones en los datos para poder hacer pronosticos implica haver analisis con una gran cantidad de datos y de variables y la funcion de mineria de datos y analisis estadisticos proporciona esa funcion. Otra funcion consiste en poder crear alertas y reportes automaticos en funcion del comportamiento de ciertos indicadores para que la organizacion pueda anticipar la solucion a ciertos problemas
+
+(685 in spanish)
+
+
+
+https://blogs.sap.com/2010/12/03/the-key-benefits-of-sap-businessobjects-business-intelligence-solutions-sbo-bi-curriculum-and-certification/
+
+- Information Clarity and Insight – Empower your business users by providing them the ability to easily create ad-hoc queries and manage powerful data analysis to obtain deeper business insight regardless of your database platform complexity.
+- Reduce TCO – SAP Business Objects BI solutions reduces BI TCO (Total Cost of Ownership) by providing a single, integrated, scalable, highly available, business intelligence enterprise platform with an award winning service oriented architecture (SOA).
+- Effectively Streamline Business Intelligence Operations – Implementing SAP Business Objects BI solutions better streamlines your business intelligence operations by improving the business user information request process.   Your IT department should spend less time intercepting and interpreting information request.  Allow your users to define information requirements, create queries, analyze and share information with less reliance on IT.
+- Maintain Long Term Operational Sustainability and Financial Growth–SAP Business Objects provides a framework of data extraction and analysis that helps business leaders make data centric managerial decisions that will help improve the bottom line and maintain operational stability and efficiency over the long term.
+
+
+================================================================================================================================================================================
+5. Summarise your overall conclusions and recommendations for the senior management team of the firm (10 marks)
+
+Los sistemas de Empresa son productos disñados para gestionar todos los aspectos de cualquier negocio desde una unica plataforma. La necesidad de este tipo de plataformas surge porque las empresas, normalmente, crecen de forma organica buscando soluciones a corto plazo a los problemas y añadiendo a la estructura existente los nuevos productos, los nuevos departamentos y los nuevos procesos y el resultado es la aparicion de un gran numero de aplicaciones y bases de datos, de informacion duplicada y falta de automatizacion entre otros problemas.
+Cuando una empresa como Euro Automotive Fabrication (EAF) decide implementar un Sisteme de Empresas, es muy dificil volver hacia atras. La decision debe ser pensada y madurada y el producto que se va a utilizar debe ser elegido con cuidado. Es esencial que la cultura de la empresa se adapte a la existencia del nuevo sistema porque la implementacion de un Sistema de empresas no es solamente la implementacion de unas herramientas de software, todos los procesos y tareas de la empresa van a girar entorno a este Sistema. Los sistemas de empresas tiene beneficios importantes como la reduccion de costes, la simplificacion de procesos o la estandarizacion de la informacion pero tambien exigen un compromiso de la empresa para mantener y actualizar el sistema, formar a los empleados e integrar el sistema con todas las demas herramientas de la organizacion. Si no se implementa bien los beneficios desparacen hasta convertirse en desventajas.
+La estrategia a seguir para implementar un Sistema de Empresas depende del grado de madurez de la arquitectura de la organizacion. Hay que analizar cual es el grado de centralizacion y estandarizacion actual y cuales son los problemas que surgen en el dia a dia. En Euro Automotive Fabrication (EAF) el sistema de compras esta fallando y el ERP se ha quedado obsoleto. En este caso es facil deducir que no se ha mantenido el Sistema de forma adecuada. La expansion del negocio a tres nuevos paises proporciona a la organizacion una oportunidad de revisar el sistema existente, actualizarlo y revisar los procesos para adaptar el negocio a los nuevos tiempos y no cometer errores evitables en los nuevos paises.
+Actualizando el sistema existente e incorporando nuevos modulos como CRM o SCM se inrementa el nivel de madurez de la organizacion lo que significa que se incrementa tambien la forma en la que la organizacion gestiona el riesgo, la capacidad de respuesta del area tecnologica, el impacto de la estrategia de la organizacion y la satisfaccion del area de gestion (Ross 2006).
+La implementacion de los modulos CRM, SCM y BI a Euro Automotive Fabrication (EAF) permite mejorar la manera en la que se fabrican los componentes, la manera en como se venden estos componentes y tener informacion excata y en tiempo real sobre el rendimiento de los productos, el estado de la produccion y el comportamiento de los clientes. 
+Los sistemas de empresas estan pensados para romper barreras geograficas y culturales y unficar la forma de trabajar en los distintos departamentos y paises estandarizando la informacion y los procesos.
+La estrategia de Euro Automotive Fabrication (EAF) consiste en crear productos de alta calidad usando los procesos de produccion optimos y manteniendo los costes en el nivel optimo tambien.
+El objetivo es expandir el negocio a nuevos paises aprovechando la opportunidad para mejorar el funcionamiento de la empresa a nivel global. Para pdeor implementar con exito es necesario definir el exito y definir el fracaso (Davenport 1999, Chapter 2), es decir, establecer los objetivos concretos y las formas de medir esos objetivos, por ejemplo, cuales son los objetivos de ventas por componente, por pais y por periodo de tiempo o cual es el coste de produccion de un producto y que cantidad quiero reducir. Hay que tenr clara la estrategia y ser consciente de que los beneficios no vienen de forma automatica. La implementacion de los modulos es un proyecto o grupo de proyectos y se deben respetar todas las fases de gestion de Proyectos y medir los beneficios (operacionales y organizativos) con datos. Un departamento que gestione el Portfolio de Proyectos (Portfolio Management), otro que monitorize el resultado de los proyectos (Performance Management) y otro que evalue los beneficios (Avtive Benefits Management). El beneficio final no es que los modulos funcionen correctamente, es que los modulos permitan cambiar la organizacion (he Information Paradox (Thorp, 2003))
+
+(724 words)
+
+--============================================================================================================================================
+--============================================================================================================================================
+Michael Whelan - CRM
+
+
+The processes and capabilities provided by Customer Relationship Management (CRM).
+
+A crucial part of business is getting to know your customers and your customers ‘needs, in order to achieve this much care needs to be taken to ensure that you can deliver the customers’ needs and grow your customer base, this is the area that a customer relationship management CRM can help and in most organisations is now critical.  
+
+According to (Wang, Feng, 2012) The CRM technology is used for better management of customers relationship and generally includes front and back office technology’s which supports sales and services and includes a data storage that can be integrated throughout different parts of the organisation so an analysis can be carried out about customers and strengthen customer related capability’s and provide greater profitability to the organisation.
+
+The CRM also has its roots in relationship marketing which is aimed at improving long-run proﬁtability by shifting from transaction-based marketing, with its emphasis on winning new customers, to customer retention through effective management of customer relationships (Chen, Popovich, 2003). This often means trying to analyse customers behaviour which is known as Predictive analytics which essentially means correctly forecasting the future, and taking action to profit from those forecasts. It is a shift in business intelligence from information that is backward looking to forward-looking. (crmsearch.com)
+
+The CRM can in business take three forms according to (Buttle, Maklan, 2015) which are listed below.
+
+Strategic – the strategic CRM is focused on customer-centric business strategy, which is aimed at winning and retaining profitable customers through enhanced customer value which allows the company to collect customer information to allow and empower employees deliver better customer service to the customer.
+
+Operational - the operational CRM has the ability to automate the marketing, selling and service function of the business, automation involves the application of technology to help and manage their service operations which can be done through call centres, field service or face to face with a high degree of efficiency, reliability, and effectiveness.
+
+Analytical – the analytical CRM is concerned with capturing, storing, extracting and integrating customer-related data to enhance both customer and company value, and this can be done through real-time marketing where predictive modeling enables company’s make relevant offers to customers as they interact with the company at different touchpoints. At these touchpoints customer, related data can be anything from purchase history, credit and payment history to campaign response loyalty on their products or services.
+
+
+CRM applications have now become quite powerful, their Web-enabled is designed to extend to the data mining capabilities of ERP throughout the supply chain to customers, distributors, and manufacturers and can share the results across channels within the organisations. However, there is a need to understand where the business process is and where it needs to go before plunging into CRM applications (Chen, Popovich, 2003). Once the case is made for CRM the organisation must identify and plan the realisation of CRM benefits, CRM should not be planned and managed as an IT project. Instead, management should focus on the benefits of CRM and not the technology itself.
+
+ 
+
+References
+
+Yonggui Wang, Hui Feng, (2012) "Customer relationship management capabilities: Measurement, antecedents and consequences", Management Decision, Vol. 50 Issue: 1, pp.115-129, https:// doi.org/10.1108/00251741211194903
+
+Injazz J. Chen, and Karen Popovich, (2003) "Understanding customer relationship management (CRM): People, process and technology", Business Process Management Journal, Vol. 9 Issue: 5, pp.672-688, https://doi.org/10.1108/14637150310496758
+
+http://www.crmsearch.com/competitive-advantages.php (Accessed 11 December 2018).
+
+ 
+Buttle, F., & Maklan, S. (2015). Customer Relationship Management : Concepts and Technologies (Vol. Third edition). Abingdon, Oxon: Routledge.
+
+
+
+
+--============================================================================================================================================
+
+Tonia Jackson
+
+
+Enterprise systems (ES) can be described as a combination of computer hardware and software utilised for organising and running operations for business purposes. The enterprise applications are developed to integrate the computer systems that run all phases of the business operations (e.g. sales, accounting, finance, human resources, and manufacturing). Ideally, businesses want to control all major ES operations in real time via a single system landscape (Enterprise Applications - Gartner IT Glossary).
+
+Business Intelligence (BI) is an umbrella term for the applications, infrastructure and tools and best practices that enable access to and analyse of business information to improve and optimise decisions and performance (Business Intelligence - BI - Gartner IT Glossary). A typical enterprise system architecture for BI is shown below in Figure 1 (Chaudhuri, Dayal and Narasayya 2011). The data utilised in the BI operations is generated from multiple sources. With the cost of data procurement and data storage has declined significantly in recent years, businesses are starting to acquire very large data volumes to gain competitive advantage. With ES parallel architecture and analytics, businesses are pushing towards using data warehousing. The BI backend processes for preparing data is known as the Extract-Transform-Load (ETL) tools. The complex event processing (CEP) engines have been created to support the BI tasks in near real-time operation. The data from BI performed processes is typically placed into a repository called the data warehouse and is monitored by one or more warehouse servers.
+
+Data Warehouse (DW) is a large collection store of generated data from a vast variety of sources from within the company and is utilised in enterprise-wide managerial decisions (Data warehouse | Definition of data warehouse in English by Oxford Dictionaries). A popular DW engine choice would be the relational database management system (RDBMS). Over the years, further development of data structures, optimisations and query processing techniques have been executed to handle complex SQL queries over large volumes of data. With digital data, there is an increase in demand for the architecture to be low-cost and businesses are facing the ‘Big Data’ Challenge. Driven by this challenge, engines are based on the MapReduce algorithm. This model is utilised for processing data using a parallel programming methodology (MapReduce - Gartner IT Glossary).
+
+DW servers are accompanied by a set of mid-tier servers that provide specialised functionality for BI processes. The mid-tier servers include online analytic processing (OLAP), ES Engine, Reporting Server, and Data Mining. OLAP is a multi-dimensional technology for data discovery and provides the capability for complex calculations and data modelling (What is the Definition of OLAP? OLAP Definition).
+
+To conclude, the umbrella term BI is utilised in ES to describe how the applications and infrastructure/tools enable access and analysis of business information which is stored in the data warehousing repository. Data acquisitions are becoming easier with the further developments of ES and large volumes of relational data (10s to 100s of terabytes) being stored by businesses are common. A typical business intelligence architecture will include data warehouse servers alongside mid-tier servers.
+
+ 
+
+References |
+
+Business Intelligence - BI - Gartner IT Glossary. Available from: https://www.gartner.com/it-glossary/business-intelligence-bi/ [Accessed December 10, 2018b].
+
+Chaudhuri, S., Dayal, U. and Narasayya, V. 2011. An overview of business intelligence technology. Communications of the ACM, 54(8), p.88.
+
+Data warehouse | Definition of data warehouse in English by Oxford Dictionaries. Oxford Dictionaries | English. Available from: https://en.oxforddictionaries.com/definition/data_warehouse [Accessed December 10, 2018].
+
+Enterprise Applications - Gartner IT Glossary. Available from: https://www.gartner.com/it-glossary/enterprise-applications/ [Accessed December 10, 2018a].
+
+MapReduce - Gartner IT Glossary. Available from: https://www.gartner.com/it-glossary/mapreduce [Accessed December 10, 2018b].
+
+What is the Definition of OLAP? OLAP Definition. OLAP.com. Available from: http://olap.com/olap-definition/ [Accessed December 10, 2018].
+
